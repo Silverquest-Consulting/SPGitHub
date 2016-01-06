@@ -1,0 +1,433 @@
+.logo{
+	background: url('../img/logo.png') no-repeat center center;
+	height: 61px;
+	text-align: center;
+	//background-size:cover;
+	background-color:#373737;
+	background-size:cover;
+}
+
+@media all and (min-width: 768px){
+	.logo{
+		height: 115px;
+	}
+}
+
+/* Fix for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 568px) and (max-width: 736px){
+	.logo{
+		height: 90px;
+	}
+	
+	
+}
+/* Fix for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 568px) and (max-width: 736px){
+	.logo{
+		height: 90px;
+	}
+}
+/*
+/////////////////////////////////////////////
+--------------- Page 2 -DONATION ------------ 
+/////////////////////////////////////////////
+*/
+
+.t{
+	height: auto;
+}
+
+.logo-p2{
+	background: url('../img/main-logo.png') no-repeat center center; //url('../bootstrap/img/top_banner/Animal_Banner.jpg') no-repeat center center;
+	height:50%;
+	text-align: center;
+	background-size:cover;
+	border: 1px solid black;
+	
+}
+
+.cate-p2 {
+    height: 65%;
+	width: 100%;
+    /* background-color: #ac7000;
+    border-radius: 20px 0px 0px 20px;
+	-o-border-radius: 20px 0px 0px 20px;
+	-moz-border-radius: 20px 0px 0px 20px;
+	-webkit-border-radius: 20px 0px 0px 20px; */
+	
+}
+
+/* Fix TOP for iphone 6 - PORTRAIL */
+@media all and (min-width: 321px) and (max-width: 375px){
+	.cate-p2 {
+    	height: 70%;
+	}	
+}
+
+/* Fix TOP for iphone 6 PLUS - PORTRAIL */
+@media all and (min-width: 376px) and (max-width: 414px){
+	.cate-p2 {
+    	height: 75%;
+	}	
+}
+
+/* Fix LOGO for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 450px) and (max-width: 2000px){
+	.logo-p2{
+		background: url('../img/main-logo-lands.png') no-repeat center center !important;
+		//background-size:contain;					/* OLD */
+		background-color: #393939 !important;
+		//height:115px;	/* // 115px ~ 23% */								/* Fix Top_Banner when turn phone to LANSCAPE,OLD */
+		height:37%;
+	}
+			/* Fix Top_Banner when turn phone to LANSCAPE */
+	.t{
+		height: 450px;
+	}
+	
+	.cate-p2 {
+		height: 325px !important;
+	}
+	
+}
+
+/* Fix ORDER BLOCK for iphone 6 - PORTRAIT */
+@media all and (min-width: 321px) and (max-width: 375px){
+	.item{
+		height: 85px !important;
+	}
+}
+
+/* Fix ORDER BLOCK for iphone 6 PLUS - PORTRAIT */
+@media all and (min-width: 376px) and (max-width: 414px){
+	.item{
+		height: 103px !important;
+	}
+}
+
+
+.cate-p2 .pic{
+	height:100%;
+	text-align: center;
+}
+
+.cate-p2 .pic1 {
+   /*  background: url('../img/test1.png') no-repeat ;
+    background-position: 17px 0px;
+	-webkit-background-position: 17px 0px;
+	-moz-background-position: 17px 0px;
+	-o-background-position: 17px 0px;
+    background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	
+    height: 70%;
+    margin-top: 19px; */
+
+	padding: 10px;
+
+}
+
+.cate-p2 .pic2 {
+   /*  background: url('../img/test2.jpg') no-repeat ;
+    
+    background-position: 25px 0px;
+	-webkit-background-position: 25px 0px;
+	-moz-background-position: 25px 0px;
+	-o-background-position: 25px 0px;
+    
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	  height: 70%;
+    margin-top: 19px; */
+	color:#fff;
+	
+
+}
+
+
+.cate-p2 .middle{
+	padding-top: 20px;
+	    
+}
+.cate-p2 .middle img {
+    border-radius: 43px;
+	-o-border-radius: 43px;
+	-moz-border-radius: 43px;
+	-webkit-border-radius: 43px;
+    width: 45px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.item{
+	height: 75px;
+	border: 1px solid black;
+	position: relative;
+	margin-bottom:2px;
+	
+}
+
+.item h5{
+	position: absolute;
+    top: 10px;
+    left: 68px;
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+/* Fix text too long for donation item for iphone 3->5 - Portrait 
+@media all and (min-width: 100px) and (max-width: 320px){
+	.item span{
+		display:block;
+	}
+}
+*/
+
+/*Fix text too long for donation item for iphone 3->6plus - Portrait */
+@media all and (min-width: 100px) and (max-width: 414px){
+	.item h5{
+		
+		/* width:139px !important; */
+		width:103px !important;
+		left:45px;					/*  Fix text for away to arrow icon for iphone 5 */
+	}
+}
+
+.item > i{
+	margin-top:15px!important;
+}
+
+.item select{
+	position: absolute;
+    top: 17px;
+    right: 70px;
+
+	font-size:16px; /*   font-size 16px so selectbox would not be zoom on iOS */
+
+	/* width, height and padding to override class form-control of bootstrap 3 so selectbox would not be to big and too long  */
+	width:auto;
+	height:auto;
+	padding:0px;
+	
+}
+
+.item .price{
+	position: absolute;
+    top: 17px;
+    right: 30px;
+}
+
+.item .total{
+	position: absolute;
+    top: 17px;
+    right: 148px;
+}
+
+.item .sum{
+	position: absolute;
+    top: 17px;
+    right: 30px;
+}
+
+.arrow-right{
+  	width: 2%;
+    height: 30%;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+
+.arrow-down {
+    width: 7%;
+    height: 8%;
+    margin-top: 27px;
+    margin-left: 5px;
+    
+}
+
+/*Fix arrow-down from iphone 4-6plusLANSCAPE */
+@media all and (min-width: 480px) and (max-width: 2000px){
+	 .arrow-down {
+    width: 4%;
+	height:13%;
+	}
+	
+	/* .arrow-right {
+	    width: 2%;
+	}  */
+}
+
+.desc1, .desc2, .desc3{
+	display:none;
+	background-color:#dbdbdb;
+	text-align: left;
+	padding-top:10px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.desc1, .desc2, .desc3 p{
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+/* Fix HIDDEN TEXT OF DONATION for iphone 6 - PORTRAIT 
+@media all and (min-width: 321px) and (max-width: 375px){
+	.desc1, .desc2, .desc3{
+		height: 155px !important;
+	}
+	
+	.block-empty{
+	height: 110px !important;
+	}
+}
+*/
+/* Fix HIDDEN TEXT OF DONATION for iphone 6plus - PORTRAIT 
+@media all and (min-width: 376px) and (max-width: 414px){
+	.desc1, .desc2, .desc3{
+			height: 115px !important;
+		}	
+	.block-empty{
+	height: 200px !important;
+	}
+}
+*/
+.block-empty{
+	/* height: 500px; */
+    background-color: #dbdbdb;
+	display:none;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 65px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  //width: 100%;
+  /* Set the fixed height of the footer here */
+  //height: 65px;
+  //background-color: #f5f5f5;
+}
+
+/* Make full width of icons in footer  */
+.f-wd{
+	width: 100%;
+	
+}
+
+/* When rotate from Iphone 4 to DESKTOP adjust the height of */
+@media all and (min-width: 480px) and (max-width: 2000px){
+	
+	.f-wd{
+		height: 65px;
+		
+	}
+}
+
+footer .back{
+	
+}
+
+footer .home{
+	text-align: center;
+	
+	
+}
+footer .cart img{
+	text-align: right;
+	
+	
+}
+.footer i{
+	//font-size: 65px;
+	font-size: 50px;
+    color: #0F7500;
+	position:relative;
+	
+}
+
+footer i.grey{
+	
+    color: #4B4B4B !important;
+	
+}
+
+/* This is format for totalItem number on top of the Trolley icon, OLD with <i id=submit> */
+.footer i>span{
+	position: absolute;
+    left: -1px;
+    font-size: 15px;
+    top: 0px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    width: 30px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    padding: 1px 0px;
+}
+
+/* This is format for totalItem number on top of the Trolley icon, NEW with <img>,span#basket  */
+#basket{
+	    position: absolute;
+    //left: 30px;
+    font-size: 12px;
+    //top: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 12px;
+    width: 20px;
+    text-align: center;
+    height: 15px;
+    line-height: 15px;
+    /* padding: 1px 0px; */
+}
+
+/* Fix span#basket iphone 6 to 6 PLUS - PORTRAIT. Note that 376px to 414px is for iphone 6plus only, 375px to 414 is for both 6 and 6plus */
+@media all and (min-width: 375px) and (max-width: 414px){
+	#basket{
+		//left: 45px;	   
+	    //top: 13px;
+		
+	}
+}
+
+/* Fix span#basket iphone 4,5,6 LANSCAPE */
+@media all and (min-width: 480px) and (max-width: 2000px){
+	#basket{
+		//left: 78px;	   
+	    right:1px;
+	}
+}
+
+
+
+/*
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.row div > p.lat{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+.row div > p.san{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+*/

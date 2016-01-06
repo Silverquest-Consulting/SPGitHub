@@ -1,0 +1,99 @@
+.logo{
+	background: url('../img/logo.png') no-repeat center center;
+	height: 61px;
+	text-align: center;
+	//background-size:cover;
+	background-color:#373737;
+	background-size:cover;
+}
+
+@media all and (min-width: 768px){
+	.logo{
+		height: 115px;
+	}
+}
+
+/* Fix for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 568px) and (max-width: 736px){
+	.logo{
+		height: 90px;
+	}
+	
+	
+}
+/* Fix for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 568px) and (max-width: 736px){
+	.logo{
+		height: 90px;
+	}
+}
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 65px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  //width: 100%;
+  /* Set the fixed height of the footer here */
+  //height: 65px;
+  //background-color: #f5f5f5;
+}
+
+/* Make full width of icons in footer  */
+.f-wd{
+	width: 100%;
+	
+}
+
+/* When rotate from Iphone 4 to DESKTOP adjust the height of */
+@media all and (min-width: 480px) and (max-width: 2000px){
+	
+	.f-wd{
+		height: 65px;
+		
+	}
+}
+
+footer .back{
+	
+}
+
+footer .home{
+	text-align: center;
+	
+	
+}
+footer .cart img{
+	text-align: right;
+	
+	
+}
+/*
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.row div > p.lat{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+.row div > p.san{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+*/

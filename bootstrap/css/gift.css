@@ -1,0 +1,260 @@
+.overlay {
+		width: 100%;
+		height: 100%;
+		background-color:#000;
+		position:fixed;
+		top: 0px;
+		left: 0px;
+		opacity:0.4;
+		filter: alpha(opacity=40);
+		z-index: 900;
+	}
+	
+	.white-box {
+		background-color: #FFF;
+		//border: 5px solid #00C;
+		width: 800px;
+		//height: 350px;
+		position: fixed;
+		left: 50%;
+		top: 65%;
+		z-index: 1000;
+		margin-top: -175px;
+		margin-left: -400px;
+		text-align:center;
+	}
+body{
+	font-family:'Century Gothic', CenturyGothic, AppleGothic, sans-serif;	
+}
+
+.distance{
+	margin-top:10px;
+}
+.thanks{
+	text-align:center;
+}
+
+.f-right{
+	float:right;
+}
+
+input, textarea{
+	font-size: 16px !important;  /* !important to override bootstrap format of input and textarea   */
+	
+}
+
+/* fix for iphone 5 portrail label font-size will be 12px */
+@media all and (min-width: 0px) and (max-width: 320px){
+	#message-form label{
+		
+	    font-size: 12px;
+	}
+}
+
+.gift{
+	position: absolute;
+    top: 320px;
+}
+
+
+
+.padd{
+	text-align: center;
+    font-size: 11px;		/* font-size description */
+}
+
+/* fix for iphone 5 portrail*/
+@media all and (min-width: 0px) and (max-width: 320px){
+	.padd{
+		
+	    font-size: 7px;
+	}
+}
+
+/* if Landscape of all device from 4s to 2000px font-size description 15px */
+@media all and (min-width: 480px) and (max-width: 2000px){
+	.padd{
+		
+	    font-size: 15px;
+	}
+}
+
+    
+.padd img{
+	width:100%
+}
+
+/*
+/////////////////////////////////////////////
+--------------- Copy from Donation ------------ 
+/////////////////////////////////////////////
+*/
+
+
+.logo{
+	background: url('../img/logo.png') no-repeat center center;
+	height: 61px;
+	text-align: center;
+	//background-size:cover;
+	background-color:#373737;
+	background-size:cover;
+}
+
+@media all and (min-width: 768px){
+	.logo{
+		height: 115px;
+	}
+}
+
+/* Fix for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 568px) and (max-width: 736px){
+	.logo{
+		height: 90px;
+	}
+	
+	
+}
+/* Fix for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 568px) and (max-width: 736px){
+	.logo{
+		height: 90px;
+	}
+}
+
+.e p{
+	text-align: center;
+    padding: 0px 40px;
+}
+
+
+.item{
+	height: 60px;
+	border-top: 1px solid #91BB17;
+    border-bottom: groove #91BB17;
+	position: relative;
+	margin-bottom:2px;
+	
+}
+
+.item h5{
+	position: absolute;
+    top: 6px;
+    left: 40px;
+}
+
+/* Fix text too long for donation item for iphone 3->5 - Portrait 
+@media all and (min-width: 100px) and (max-width: 320px){
+	.item span{
+		display:block;
+	}
+}
+*/
+
+/*Fix text too long for donation item for iphone 3->6plus - Portrait */
+@media all and (min-width: 100px) and (max-width: 414px){
+	.item h5{
+		width:160px !important;
+	}
+}
+
+/* Format for <pre class="message"> when preview ecard  -OLD*/
+/* .message{
+	color:red; 
+	text-align:left;
+	height:100%;
+
+	//override thuoc tinh background va border cua bootstrap len the <pre> 
+	background-color: #fff;
+	border: none;
+} */
+
+.cover{
+	/* position: absolute;
+    bottom: 90px; */
+}
+
+.message {
+    color: white;
+    text-align: center;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    word-break: normal;
+    padding-left: 25px;
+    padding-right: 25px;
+    white-space: pre-line;
+    /*  word-wrap: normal; */
+   
+}
+
+.pic1_des, .pic2_des, .pic3_des{
+	padding: 10px;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 65px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  //width: 100%;
+  /* Set the fixed height of the footer here */
+  //height: 65px;
+  //background-color: #f5f5f5;
+}
+
+/* Make full width of icons in footer  */
+.f-wd{
+	width: 100%;
+	
+}
+
+/* When rotate from Iphone 4 to DESKTOP adjust the height of */
+@media all and (min-width: 480px) and (max-width: 2000px){
+	
+	.f-wd{
+		height: 65px;
+		
+	}
+}
+
+footer .back{
+	
+}
+
+footer .home{
+	text-align: center;
+	
+	
+}
+footer .cart img{
+	text-align: right;
+	
+	
+}
+/*
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.row div > p.lat{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+.row div > p.san{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+*/

@@ -1,0 +1,287 @@
+.distance{
+	margin-top:10px;
+}
+.thanks{
+	text-align:center;
+}
+
+button{
+	float:right;
+}
+
+/*
+/////////////////////////////////////////////
+--------------- Page 2 -DONATION ------------ 
+/////////////////////////////////////////////
+*/
+
+.t{
+	height: 250px;
+}
+.logo-p2{
+	background: url('../img/main-logo.png') no-repeat center center;
+	height:50%;
+	text-align: center;
+	background-size:cover;
+	border: 1px solid black;
+	
+}
+
+.t p{
+	text-align: center;
+    padding: 0px 40px;
+}
+
+/* Fix LOGO for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 450px) and (max-width: 2000px){
+	.logo-p2{
+		background: url('../img/main-logo.png') no-repeat center center !important;
+		background-size:contain;
+		background-color: #393939 !important;
+
+
+	}
+	
+}
+
+/* Fix ORDER BLOCK for iphone 6 - PORTRAIT */
+@media all and (min-width: 321px) and (max-width: 375px){
+	.item{
+		height: 85px !important;
+	}
+}
+
+/* Fix ORDER BLOCK for iphone 6 PLUS - PORTRAIT */
+@media all and (min-width: 376px) and (max-width: 414px){
+	.item{
+		height: 103px !important;
+	}
+}
+
+.cate-p2 {
+    height: 50%;
+    /* background-color: #ac7000;
+    border-radius: 20px 0px 0px 20px;
+	-o-border-radius: 20px 0px 0px 20px;
+	-moz-border-radius: 20px 0px 0px 20px;
+	-webkit-border-radius: 20px 0px 0px 20px; */
+}
+
+.cate-p2 .pic{
+	height:100%;
+	text-align: center;
+}
+
+.cate-p2 .pic1 {
+   /*  background: url('../img/test1.png') no-repeat ;
+    background-position: 17px 0px;
+	-webkit-background-position: 17px 0px;
+	-moz-background-position: 17px 0px;
+	-o-background-position: 17px 0px;
+    background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	
+    height: 70%;
+    margin-top: 19px; */
+
+	padding: 10px;
+
+}
+
+.cate-p2 .pic2 {
+   /*  background: url('../img/test2.jpg') no-repeat ;
+    
+    background-position: 25px 0px;
+	-webkit-background-position: 25px 0px;
+	-moz-background-position: 25px 0px;
+	-o-background-position: 25px 0px;
+    
+	background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	  height: 70%;
+    margin-top: 19px; */
+	color:#fff;
+	
+
+}
+
+
+.cate-p2 .middle{
+	padding-top: 20px;
+	    
+}
+.cate-p2 .middle img {
+    border-radius: 43px;
+	-o-border-radius: 43px;
+	-moz-border-radius: 43px;
+	-webkit-border-radius: 43px;
+    width: 45px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.item{
+	height: 60px;
+	border-top: 1px solid #91BB17;
+    border-bottom: groove #91BB17;
+	position: relative;
+	margin-bottom:2px;
+	
+}
+
+.item h5{
+	position: absolute;
+    top: 6px;
+    left: 40px;
+}
+
+/* Fix text too long for donation item for iphone 3->5 - Portrait 
+@media all and (min-width: 100px) and (max-width: 320px){
+	.item span{
+		display:block;
+	}
+}
+*/
+
+/*Fix text too long for donation item for iphone 3->6plus - Portrait */
+@media all and (min-width: 100px) and (max-width: 414px){
+	.item h5{
+		width:160px !important;
+	}
+}
+
+
+.item select{
+	position: absolute;
+    top: 17px;
+    right: 70px;
+}
+
+.item .price{
+	position: absolute;
+    top: 17px;
+    right: 30px;
+}
+
+.item .total{
+	position: absolute;
+    top: 17px;
+    right: 148px;
+}
+
+.item .sum{
+	position: absolute;
+    top: 17px;
+    right: 30px;
+}
+
+.desc1, .desc2, .desc3{
+	display:none;
+}
+
+
+/* Fix HIDDEN TEXT OF DONATION for iphone 6 - PORTRAIT 
+@media all and (min-width: 321px) and (max-width: 375px){
+	.desc1, .desc2, .desc3{
+		height: 155px !important;
+	}
+	
+	.block-empty{
+	height: 110px !important;
+	}
+}
+*/
+/* Fix HIDDEN TEXT OF DONATION for iphone 6plus - PORTRAIT 
+@media all and (min-width: 376px) and (max-width: 414px){
+	.desc1, .desc2, .desc3{
+			height: 115px !important;
+		}	
+	.block-empty{
+	height: 200px !important;
+	}
+}
+*/
+.block-empty{
+	height: 80px;
+    background-color: #dbdbdb;
+	display:none;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 65px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 65px;
+  background-color: #f5f5f5;
+}
+
+footer .home{
+	text-align: center;
+	
+}
+footer .cart{
+	text-align: right;
+	
+}
+.footer i{
+	font-size: 65px;
+    color: #0F7500;
+	position:relative;
+}
+
+footer i.grey{
+	
+    color: #4B4B4B !important;
+	
+}
+
+/* This is format for totalItem number on top of the Trolley icon  */
+.footer i>span{
+	position: absolute;
+    left: -1px;
+    font-size: 15px;
+    top: 0px;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    width: 30px;
+    text-align: center;
+    height: 26px;
+    line-height: 26px;
+    padding: 1px 0px;
+}
+   
+
+/*
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.row div > p.lat{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    
+}
+
+.row div > p.san{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+*/

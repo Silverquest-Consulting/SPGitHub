@@ -1,0 +1,170 @@
+
+body{
+	background-color:#eee !important;			/*  change background color of body to grey */
+}
+
+
+
+button{
+	background-color: #DDDDDD;	/* Temporary put background color for <button> because it does not show under iphone when use class btn btn-block btn-lg  */
+	//border:-1px !important;	/*  This is just for testting, turn off border of class .btn of bootstrap given the button different look. JUST TESTING ONLY */
+}
+
+
+
+a{
+	text-decoration:none !important;
+	color: #383333;						/* this color make text inside black  when <a> cover button class btn btn-block btn-lg  */
+}
+.modal-footer {
+	text-align: center !important;
+}
+
+.modal-footer button {
+	margin-top: 4px;
+}
+
+/* .warning, .err, .info, .success {
+    padding: 20px 20px 20px 40px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-width: 1px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+	
+}
+
+.success {
+    background-color: #e8f5df;
+    background-image: url(success.png);
+    border-color: #9ece9e;
+} */
+
+.logo{
+	background: url('../img/logo.png') no-repeat center center;
+	height: 61px;
+	text-align: center;
+	//background-size:cover;
+	background-color:#373737;
+	background-size:cover;
+}
+
+@media all and (min-width: 768px){
+	.logo{
+		height: 115px;
+	}
+}
+
+/* Fix for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 568px) and (max-width: 736px){
+	.logo{
+		height: 90px;
+	}
+	
+	
+}
+/* Fix for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 568px) and (max-width: 736px){
+	.logo{
+		height: 90px;
+	}
+}
+
+div.my-row {
+	padding: 20px;
+	margin: 10px auto;
+	border: 2px solid #ebe9f9;
+}
+
+.t{
+	height: 100%;
+}
+
+.logo-p2{
+	background: url('../img/logo.png') no-repeat center center; 
+	height:85px;
+	
+	background-size:cover;
+	border: 1px solid black;
+	
+}
+
+
+/* Fix LOGO for iphone 6 and 6plus - Landscape */
+@media all and (min-width: 450px) and (max-width: 2000px){
+	.logo-p2{
+		    /* background: url('../img/main-logo-land.png') no-repeat center center !important; */
+    background-size: cover;
+    background-color: #393939 !important;
+    height: 148px;
+	}
+			/* Fix Top_Banner when turn phone to LANSCAPE */
+	.t{
+		height: 100%;
+	}
+	
+	
+	
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 65px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  //width: 100%;
+  /* Set the fixed height of the footer here */
+  //height: 65px;
+  //background-color: #f5f5f5;
+}
+
+/* Make full width of icons in footer  */
+.f-wd{
+	width: 100%;
+	
+}
+
+/* When rotate from Iphone 4 to DESKTOP adjust the height of */
+@media all and (min-width: 480px) and (max-width: 2000px){
+	
+	.f-wd{
+		height: 65px;
+		
+	}
+}
+
+footer .back{
+	
+}
+
+footer .home{
+	text-align: center;
+	
+	
+}
+footer .cart img{
+	text-align: right;
+	
+	
+}
+.footer i{
+	//font-size: 65px;
+	font-size: 50px;
+    color: #0F7500;
+	position:relative;
+	
+}
+
+footer i.grey{
+	
+    color: #4B4B4B !important;
+	
+}
